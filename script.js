@@ -20,7 +20,12 @@ const answerArray = [
 ];
 
 const game = (index, element) => {
-  // updating the asnwer array
+
+  // adding new class to style the cliked button
+  element.classList.add("clickedBtn");
+
+
+  // updating the answer array
   if (answerArray[index] === undefined) {
     if (userOneTurn) {
       answerArray[index] = "X";

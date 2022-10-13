@@ -44,13 +44,15 @@ body{
     height: 100px;
     text-align: center;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
 }
 
-/* .test{
+.clickedBtn{
     animation: ease-in-out;
     scale: 0.8;
     box-shadow: 5px 5px 5px #817f7f,-5px -5px 5px #fff;
-} */
+}
 
 .restart{
     cursor: pointer;
